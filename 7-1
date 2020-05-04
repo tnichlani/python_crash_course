@@ -1,0 +1,5 @@
+car = input('what car rental are you looking for: ')
+
+car = 'toyota'
+
+print("let me see if i can find you a: " + car.title())
