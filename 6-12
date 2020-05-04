@@ -1,0 +1,18 @@
+pizzas = {
+	    'pepperoni' : {'size' : 18 , 'crust' : 'thin' , 'sauce' : 'pesto' , 'toppings' : 'onion'} ,
+	    'paneer' : {'size' : 24 , 'crust' : 'thick' , 'sauce' : 'tomato' , 'toppings' : 'capsicum'} ,
+	    'sausage' : {'size' : 12 , 'crust' : 'chicago' , 'sauce' : 'pepper' , 'toppings' : 'salami'} ,
+	    }
+
+for pizza , pizza_info in pizzas.items():
+	pizza_name = pizza.title()
+	print(pizza_name + ' pizza:')
+	pizza_size = str(pizza_info['size'])
+	print(pizza_size + ' inch')
+	pizza_crust = (pizza_info['crust'])
+	print(pizza_crust.title() + ' crust')
+	pizza_sauce = (pizza_info['sauce'])
+	print(pizza_sauce.title() + ' sauce')
+	pizza_toppings = (pizza_info['toppings'])
+	print(pizza_toppings.title() + '\n')
+ 
