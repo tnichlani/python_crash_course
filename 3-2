@@ -1,0 +1,9 @@
+names = ['breaking bad' , 'patriot' , 'entourage' , 'start-up']
+msg = ", you are one of my favorite shows."
+print('Hey ' +  names[0].title() + msg)
+print('Hey ' +  names[1].title() + msg)
+print('Hey ' +  names[2].title() + msg)
+print('Hey ' +  names[3].title() + msg)
+
+
+
