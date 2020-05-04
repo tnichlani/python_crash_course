@@ -1,0 +1,24 @@
+#make part guest list
+guest_list = ['deepika' , 'elon' , 'modi']
+
+#people who are unavailable 
+unavailable = guest_list.pop()
+print( 'Unfortunately ' + unavailable.title() + ' will not be able to make it to dinner tonight :( ' )
+
+# add new guest in place of those who are unavailable 
+new_guest = guest_list.append('srk')
+new_guest = guest_list.append('kari')
+
+#send new invites
+
+print(guest_list[0].title() + ' cant wait to see you at dinner.')
+print(guest_list[1].title() + ' cant wait to see you at dinner.')
+print(guest_list[2].upper() + ' cant wait to see you at dinner.')
+
+
+
+
+
+
+
+
