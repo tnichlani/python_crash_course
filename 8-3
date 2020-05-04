@@ -1,0 +1,8 @@
+def make_shirt( size , msg ):
+	print("The shirt with size: " + size + 
+		" and message - " + msg + 
+		" is now ready.")
+
+make_shirt('medium' , '"I love python"')
+make_shirt(size = 'medium' , msg = '"I love coding"')
+
