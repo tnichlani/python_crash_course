@@ -1,0 +1,14 @@
+def make_car( manufacturer , model , **car_info ):
+	car_profile = {}
+	car_profile['manufacturer_name'] = manufacturer 
+	car_profile['_model_'] = model 
+	for key, value in car_info.items():
+		car_profile[key] = value
+	return car_profile
+
+my_car = make_car('mercedes' , 'E-class' , color = 'white' , interiors = 'beige')
+print(my_car) 
+
+
+
+
