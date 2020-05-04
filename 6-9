@@ -1,0 +1,17 @@
+favorite_places = {
+
+			       'loki' : ['london' , 'toronto' , 'cape town'] ,
+				   'kari' : ['joburg' , 'vienna' , 'prague'] ,
+				   'prem' : ['amsterdam' , 'pune' , 'lonavala']
+				  
+				  }
+
+				  
+
+for name , places in favorite_places.items():
+	print(name.title() + "'s " + "favorite places in the world are: ")
+	for place in places:
+		print('\t' + place.title())
+				  
+
+
