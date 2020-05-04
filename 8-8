@@ -1,0 +1,17 @@
+def make_album(art , alb , tracks = 0):
+	artist_dict = {
+		'artist' : artist.title() ,
+		'album' : album.title() ,
+		}
+
+print('Enter "q" anytime to stop')
+	
+while True:
+	artist = input('Who is your favorite artist?>>> ')
+	if artist == 'q':
+		break
+	album = input('What is the album name?>>> ')
+	if album == 'q':
+		break 
+	album = make_album(artist, album)
+
