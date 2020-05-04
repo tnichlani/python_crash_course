@@ -1,0 +1,9 @@
+def sandwich_orders(*toppings):
+	print("We are adding the following toppings: ") 
+	for topping in toppings:
+		print(topping)
+
+sandwich_orders('pepperoni' , 'tomato' , 'cheese' )
+sandwich_orders('basil' , 'lettuce' )
+sandwich_orders('pesto' , 'brocolli' , 'cheese' , 'tomato')
+
