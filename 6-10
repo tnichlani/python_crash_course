@@ -1,0 +1,11 @@
+fav_numbers = {'loki' : [6 , 3 , 9] ,
+			   'kari' : [3 , 4 , 8] , 
+			   'prem' : [1 , 5 , 2] ,
+			   'gauri' : [9 , 3 , 2] ,
+			   'riaan' : [7 , 0 , 4] ,
+			   }
+
+for name, numbers in fav_numbers.items():
+	print(name.title() + ' has the folowing favorite numbers: ')
+	for number in numbers:
+		print(str(number))
