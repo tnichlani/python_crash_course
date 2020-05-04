@@ -1,0 +1,5 @@
+guest_list = ['deepika' , 'elon' , 'modi']
+msg = "Hello! we would love to have you over for dinner "
+print(msg + guest_list[0].title() + '.')
+print(msg + guest_list[1].title() + '.')
+print(msg + guest_list[2].title() + '.')
