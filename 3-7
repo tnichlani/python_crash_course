@@ -1,0 +1,27 @@
+# make guest list 
+guest_list = ['loki', 'deepika', 'shaan', 'elon', 'srk', 'kari', 'devgan']
+# give them the bad news
+print('Hello everybody, we have place for only 2 guests')
+# remove one guest + inform them
+removed_guests = guest_list.pop()
+print("Hello! " + removed_guests.title() + ". Sorry we can't invite you to dinner :(")
+# remove one guest + inform them
+removed_guests = guest_list.pop()
+print("Hello! " + removed_guests.title() + ". Sorry we can't invite you to dinner :(")
+# remove one guest + inform them
+removed_guests = guest_list.pop()
+print("Hello! " + removed_guests.title() + ". Sorry we can't invite you to dinner :(")
+# remove one guest + inform them
+removed_guests = guest_list.pop()
+print("Hello! " + removed_guests.title() + ". Sorry we can't invite you to dinner :(")
+# remove one guest + inform them
+removed_guests = guest_list.pop()
+print("Hello! " + removed_guests.title() + ". Sorry we can't invite you to dinner :(")
+# inform balance guests we are on for tonight
+print('Hello ' + guest_list[0].title() + ', cant wait to see you tonight.')
+print('Hello ' + guest_list[1].title() + ', cant wait to see you tonight.')
+# delete balance guests
+del guest_list[0] 
+del guest_list[0]
+# print empty guest list to confirm no one is still invited
+print(guest_list)
