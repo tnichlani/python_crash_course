@@ -1,0 +1,7 @@
+persons = ['kari' , 'loki' , 'riaan' , 'ddarsh' , 'gauri']
+print("The first 3 items in the list are: ")
+print(persons[:3])
+print("three items from the list are: ")
+print(persons[1:4])
+print("the last three items in the list are: ")
+print(persons[-3:])
