@@ -1,7 +1,11 @@
-def display_message(L):
-	print('I am currently learning about '  + L + ' in this book')
+def display_message(t):
+	print('I am currently learning about '  + t + ' in this book')
 
-print(display_message('bools'))
+display_message('bools')
+
+
+
+
 
 
 
