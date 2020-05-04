@@ -1,0 +1,8 @@
+pizzas = ['pepperoni' , 'mozzarella' , 'chicken']
+for pizza in pizzas:
+	print(pizza.title())
+	print("I love " + pizza.title() + " pizza.\n")
+
+print("I really love pizzas.")
+
+
