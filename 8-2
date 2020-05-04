@@ -1,5 +1,7 @@
 def favorite_book(t):
 	print("One of my favorite books is - " + t)
 
-print(favorite_book('The war of Art'))
+favorite_book('The war of Art')
+
+
 
