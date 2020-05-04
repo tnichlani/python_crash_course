@@ -1,0 +1,2 @@
+msg = "I am excited to become a programmer."
+print(msg)
