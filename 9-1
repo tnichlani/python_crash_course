@@ -1,0 +1,30 @@
+class User():
+
+	def __init__(self, first_name , last_name , email_id , age , location):
+		self.first_name = first_name.title()
+		self.last_name = last_name.title()
+		self.email_id = email_id.lower()
+		self.age = str(age)
+		self.location = location.title()
+
+	def describe_user(self):
+		print("first name: " + self.first_name)
+		print("last name: " + self.last_name)
+		print("Email: " + self.email_id)
+		print("age: " + self.age)
+		print("location: " + self.location)
+
+	def greet_user(self):
+		full_name = self.first_name + ' ' + self.last_name
+		full_name_upper = full_name.upper()
+		print('Hello! ' + full_name_upper + " welcome back, we missed you!")
+
+user = User('loki' , 'nichlani' , 'tnichlani@gmail.com' , '32' , 'bombay')
+user.describe_user()
+user.greet_user()
+
+
+
+	
+
+
