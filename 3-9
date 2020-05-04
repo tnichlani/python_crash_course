@@ -1,0 +1,2 @@
+guest_list = ['deepika' , 'elon' , 'modi']
+print(len(guest_list))
