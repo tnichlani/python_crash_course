@@ -1,0 +1,21 @@
+# make list
+places = ['toronto' , 'miami' , 'san diego' , 'zurich' , 'chicago']
+# print original list
+print(places)
+# use sorted()
+print(sorted(places))
+# re-print and confirm original exists
+print(places)
+# use sorted to print in reverse
+print(sorted(places , reverse=True))
+# reprint to confirm original exists
+print(places)
+# change list order with reverse()
+places.reverse()
+print(places)
+# use sort()
+places.sort()
+print(places)
+# user reverse()
+places.sort(reverse=True)
+print(places)
