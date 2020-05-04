@@ -1,0 +1,7 @@
+def show_magicians(magicians):
+	for magician in magicians:
+		print(magician.title())
+
+
+magicians = ['loki' , 'riaan' , 'ddarsh']
+show_magicians(magicians)
