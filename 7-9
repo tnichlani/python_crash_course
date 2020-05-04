@@ -1,0 +1,23 @@
+
+sandwich_orders = ['pastrami' , 'pesto' , 'BLT' , 'veggie' , 'pastrami' , 'pastrami']
+
+finished_sandwiches = []
+
+print('We have run out of Pastrami folks ')
+while 'pastrami' in sandwich_orders:
+	sandwich_orders.remove('pastrami')
+
+print('\n')
+
+while sandwich_orders:
+	current_orders = sandwich_orders.pop()
+	print("Your " + current_orders.title() + ' sandwich is being prepared.')
+	finished_sandwiches.append(current_orders)
+
+print('\n')
+
+for sandwich in finished_sandwiches:
+	print("Your " + sandwich.title() + " sandwich is now ready!" ) 
+
+
+
