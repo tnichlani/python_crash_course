@@ -1,0 +1,21 @@
+name_dream_vacay = {}
+
+poll_active = True
+
+while True:
+	name = input("what is your name? > ")
+	dream_vacay = input("what is your favorite place?")
+
+	name_dream_vacay[name] = dream_vacay
+
+	continue_poll = input("Shall we ask others for this poll yes or no? >")
+	if continue_poll.lower == 'no':
+		poll_active = False
+
+for name, dream_vacay in name_dream_vacay.items():
+	print(name.title() + " would love to go to " + dream_vacay.title())
+
+
+
+
+
