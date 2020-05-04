@@ -1,0 +1,20 @@
+prompt = "Kindly enter your age: "
+prompt += '\nEnter quit when you are finished. '
+
+while True: 
+	age = input(prompt)
+	if age == 'quit':
+		break
+	age = int(age)
+
+if age < 3:
+	print("your admission is free")
+elif age <  12:
+	print("your admission fee is $10")
+else:
+	print("your admission fee is $15")
+
+
+
+
+
