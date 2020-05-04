@@ -1,0 +1,8 @@
+def city_country( city_name , country_name ):
+	city_details = (city_name.title() + ', ' + country_name.title())
+	return city_details
+
+print(city_country('mumbai' , 'india'))
+print(city_country('santiago' , 'chile'))
+print(city_country('pune' , 'india'))
+
