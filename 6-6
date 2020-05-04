@@ -1,0 +1,17 @@
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'ruby',
+    'phil': 'python',
+    'loki' : 'c',
+    }
+
+voters = ['phil' , 'loki' , 'kari' , 'jen' , 'sarah' , 'edward' , 'prem' , ]
+
+for name in voters:
+	if name in favorite_languages:
+		print('Thank you for taking the poll ' + name.title() + '!\n')
+	else:
+		print('Have you taken the poll - ' + name.title() +'?\n')
+
+
