@@ -1,0 +1,6 @@
+usernames = ['loki' , 'kari' , 'riaan' , 'ddarsh' , 'admin']
+for username in usernames:
+	if username == 'admin':
+		print('Hello admin! Would you like to see a status report?')
+	else:
+		print("Hello! " + username.title() + ", thank you for logging in again")
