@@ -1,0 +1,11 @@
+addition = 5 + 3
+print(addition)
+
+subtraction = 12-4
+print(subtraction)
+
+multiplication = 2 * 4
+print(multiplication)
+
+division = 16/2
+print(division)
