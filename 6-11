@@ -1,0 +1,19 @@
+cities = {
+		  'mumbai' : {
+		  'country' : 'india' , 'population' : 3434343445 , 'fact' : 'the largest slum in asia' } ,
+          'pune' : { 
+          'country' : 'india' , 'population' : 55778889 , 'fact' : 'the tech hub of india'} ,
+	      'mahabaleshwar' : { 
+	      'country' : 'india' , 'population' : 999009489 , 'fact' : 'a hill station in india'} , 
+	     }
+for city_name , city_info in cities.items():
+	city = city_name.title()
+	country = city_info['country'].title()
+	fact = city_info['fact']
+	pop = str(city_info['population'])
+	print('The city of ' + city + ' is in ' + country + '.')
+	print('It has a population of ' + pop + ' people.')
+	print("It is " + fact + '\n')
+
+
+	     
