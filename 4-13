@@ -1,0 +1,10 @@
+foods = ('chicken' , 'beef' , 'fish' , 'pork' , 'shrimp')
+
+print("You can choose from the following list: ")
+for food in foods:
+	print(food.title())
+
+print("\nWe have updated our list: ")
+foods = ('chicken' , 'beef' , 'fish' , 'rice' , 'burger')
+for food in foods:
+	print(food.title())
