@@ -1,0 +1,16 @@
+age = 17
+
+if age < 2:
+	outcome = 'baby'
+elif age < 4:
+	outcome = 'toddler'
+elif age < 13:
+	outcome = 'kid'
+elif age < 20:
+	outcome = 'teenager'
+elif age < 65:
+	outcome = 'adult'
+else:
+	outcome = 'elder'
+
+print("You're a " + outcome.title() + "!")
