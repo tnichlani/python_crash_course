@@ -1,0 +1,3 @@
+name = 'loki nichlani'
+msg = "Hello, " + name.title() + ' would you like to learn some python today?'
+print(msg)
