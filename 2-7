@@ -1,0 +1,6 @@
+name = '\ttrilok nichlani\n'
+
+print(name)
+print(name.title().lstrip())
+print(name.title().rstrip())
+print(name.title().strip())
