@@ -1,0 +1,13 @@
+current_users = ['modi' , 'trump' , 'boris' , 'justinnnn' , 'putin']
+new_users = ['rihanna' , 'jlo' , 'mike' , 'PUTIN' , 'boris']
+user_lower = [user.lower() for user in current_users]
+
+for new_user in new_users:
+	if new_user.lower() in current_users:
+		print("Sorry, " + new_user.title() + " this name is unavaialble.")
+	else:
+		print("This username is available - " + new_user.title() + '.')
+
+
+
+
