@@ -1,0 +1,12 @@
+def make_album(artist , album):
+	artist_dict = {
+		'artist' : artist.title() ,
+		'album' : album.title() ,
+		}
+	return artist_dict
+
+print(make_album('ar rahman' , 'jayho'))
+print(make_album('kanye west' , 'Late Registration'))
+
+
+
