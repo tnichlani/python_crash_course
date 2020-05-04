@@ -1,0 +1,7 @@
+table_for = input('How many people in your dinner group?  ')
+table_for = int(table_for)
+
+if table_for < 8:
+	print('Your table is ready')
+else:
+	print('You will have to wait buddy')
