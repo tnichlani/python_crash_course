@@ -1,0 +1,8 @@
+prompt = 'what topping would you like: '
+prompt += "enter quit when you are done: "
+while True:
+	topping = input(prompt)
+	if topping != 'quit':
+		print(topping)
+	else:
+		break
