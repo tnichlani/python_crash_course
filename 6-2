@@ -1,0 +1,8 @@
+fav_numbers = {'loki' : 6 ,
+			   'kari' : 3 ,
+			   'prem' : 1 ,
+			   'gauri' : 9 ,
+			   'riaan' : 7 ,
+			   }
+for name, num in fav_numbers.items():
+	print(name.title() + ': ' + str(num) + '\n')
