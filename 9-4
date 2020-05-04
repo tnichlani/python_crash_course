@@ -1,0 +1,50 @@
+class Restaurant():
+
+	def __init__(self, name , cuisine_type ):
+
+		self.name = name.title()
+		self.cuisine_type = cuisine_type.title()
+		self.number_served = 0
+
+	def describe_restaurant(self):
+		print(self.name + " serves " + self.cuisine_type)
+
+
+	def set_number_served(self, number_served = 0):
+		self.number_served = number_served
+		print('Number served: ' + str(self.number_served))
+		
+
+	def increment_number_served(self , additional_served):
+		self.number_served += additional_served
+		print('number served: ' + str(restaurant.number_served))
+
+
+restaurant = Restaurant('pizza hut' , 'pizza')
+
+
+restaurant.describe_restaurant()
+
+
+restaurant.set_number_served(430)
+
+
+restaurant.set_number_served(1200)
+
+
+restaurant.increment_number_served(200)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
