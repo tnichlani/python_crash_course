@@ -1,0 +1,14 @@
+glossary = {'loop' : ' move through a list, one by one ' , 
+			'string' : ' everything in commas ' , 
+			'dictionary' : ' everything in curly brackets ',
+			'bool' : ' conditional True or False outcomes ' ,
+			'lists' : 'Everything in [] ' ,
+			'get' : 'function that literally gets some data',
+			'all' : 'function that checks is all statements are true or false',
+			'modular operator' : ' "%" returns the remainder after 2 numbers are divided by eachother' ,
+			'immutable' : 'data that cannot be changed/modified eg. tuple' , 
+			'mutable' : 'data that can be changed eg. List',
+			}
+for term, meaning in glossary.items():
+	print(term.title() + ': ' + meaning )
+			
