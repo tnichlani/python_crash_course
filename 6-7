@@ -1,0 +1,27 @@
+people = []
+
+person = {'first_name' : 'loki' ,
+		  'last_name' : 'nichlani' ,
+		   'age' : 32 ,
+		   'city' : 'mumbai' ,
+		   }
+people.append(person)
+
+person = {'first_name' : 'kari' ,
+			'last_name' : 'hemwani' , 
+			'age' : 30 ,
+			'city' : 'pune' , 
+		   }
+people.append(person)
+
+
+person = {'first_name' : 'riaan' ,
+		  'last_name' : 'gowani' ,
+		  'age' : 4 ,
+		  'city' : 'lonavala'}
+
+people.append(person)
+
+
+for key in people:
+	print(key)
