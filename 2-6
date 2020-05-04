@@ -1,0 +1,3 @@
+famous_person = 'narendra modi'
+message = '"Everything bad must come to and end."'
+print(famous_person.title() + ' once said, ' + message)
