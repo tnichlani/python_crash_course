@@ -1,0 +1,29 @@
+people = []
+
+person = {'first_name' : 'loki' ,
+		  'last_name' : 'nichlani' ,
+		   'age' : 32 ,
+		   'city' : 'mumbai' ,
+		   }
+people.append(person)
+
+person = {'first_name' : 'kari' ,
+			'last_name' : 'hemwani' , 
+			'age' : 30 ,
+			'city' : 'pune' , 
+		   }
+people.append(person)
+
+
+for person in people:
+	full_name = person['first_name'].title() + ' ' + person['last_name'].title()
+	age = str(person['age'])
+	city = person['city'].title()
+
+	print(full_name + ' lives in ' + city + ' and is ' + age + ' years old.')
+
+
+
+
+
+
