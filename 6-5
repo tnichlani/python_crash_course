@@ -1,0 +1,13 @@
+glossary = {'nile' : 'egypt' , 
+			'ganga' : 'india' , 
+			'thames' : 'england' ,
+			}
+for river, country in sorted(glossary.items()):
+	print( "The " + river.title() + ' runs through ' + country.title())
+
+for river in glossary.keys():
+	print(river.title())
+
+for country in glossary.values():
+	print(country.title())
+	
