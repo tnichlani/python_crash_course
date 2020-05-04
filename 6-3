@@ -1,0 +1,9 @@
+glossary = {'loop' : ' move through a list, one by one ' , 
+			'string' : ' everything in commas ' , 
+			'dictionary' : ' everything in curly brackets ',
+			'bool' : ' conditional True or False outcomes ' ,
+			'lists' : 'Everything in [] ' ,
+			}
+for term, meaning in glossary.items():
+	print(term.title() + ': ' + meaning )
+			
