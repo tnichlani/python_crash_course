@@ -1,0 +1,30 @@
+pets = {
+	'mary' : { 
+	   'animal_type' : 'dog' ,
+	   'owner' : 'prem' ,
+  	   } ,
+
+  	'loki' : {
+  	   'animal_type' : 'cat' ,
+  	   'owner' : 'kari'
+  	   } ,
+
+  	}
+
+for name , pet_info in pets.items():
+	print('Name: ' + name.title())
+	pet_type = pet_info['animal_type']
+	print("\tType of pet: " + pet_type.upper())
+	owners_name = pet_info['owner'].title()
+	print('\tOwners Name: ' + owners_name)
+
+
+
+
+
+
+
+
+
+
+
