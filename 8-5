@@ -1,0 +1,7 @@
+def describe_city(city , country = 'india'):
+	print(city.title() + " is in " + country.title() + ".")
+
+describe_city('mumbai')
+describe_city('pune')
+describe_city('amsterdam' , country = 'netherlands')
+
