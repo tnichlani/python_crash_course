@@ -1,0 +1,3 @@
+cars = ['tesla' , 'rivian']
+print('I would love to own a ' + cars[0].title() + ' car someday.')
+print('I would love to own a ' + cars[1].title() + ' car someday.')
