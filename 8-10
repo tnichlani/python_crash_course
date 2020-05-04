@@ -1,0 +1,19 @@
+def show_magicians(magicians):
+	for magician in magicians:
+		print(magician.title())
+
+def make_great(magicians):
+	great_magicians = []
+	while magicians:
+		magician = magicians.pop()
+		add_great = magician +  " the great!"
+		great_magicians.append(add_great)
+
+	for great_magician in great_magicians:
+		magicians.append(great_magician)
+
+magicians = ['loki' , 'riaan' , 'ddarsh']
+show_magicians(magicians)
+make_great(magicians)
+show_magicians(magicians)
+
